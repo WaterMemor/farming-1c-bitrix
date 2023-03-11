@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://livedemo00.template-help.com/wt_51689/ -->
+<html class="wide wow-animation desktop landscape rd-navbar-static-linked html-undefined-select" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Farming</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <script type="text/javascript" async="" src="js/analytics.js"></script><script async="" src="js/gtm.js"></script><script type="text/javascript" async="" src="js/ga.js"></script><script src="js/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script><script src="js/4o300efCt-CXoq1JEC-sVReFz48.js"></script><link rel="icon" href="https://livedemo00.template-help.com/wt_51689/images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="./css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="data:text/css;charset=utf-8;base64,Y2xvdWRmbGFyZS1hcHBbYXBwLWlkPSJhLWJldHRlci1icm93c2VyIl0gewogIGRpc3BsYXk6IGJsb2NrOwogIGJhY2tncm91bmQ6ICM0NTQ4NGQ7CiAgY29sb3I6ICNmZmY7CiAgbGluZS1oZWlnaHQ6IDEuNDU7CiAgcG9zaXRpb246IGZpeGVkOwogIHotaW5kZXg6IDkwMDAwMDAwOwogIHRvcDogMDsKICBsZWZ0OiAwOwogIHJpZ2h0OiAwOwogIHBhZGRpbmc6IC41ZW0gMWVtOwogIHRleHQtYWxpZ246IGNlbnRlcjsKICAtd2Via2l0LXVzZXItc2VsZWN0OiBub25lOwogICAgIC1tb3otdXNlci1zZWxlY3Q6IG5vbmU7CiAgICAgIC1tcy11c2VyLXNlbGVjdDogbm9uZTsKICAgICAgICAgIHVzZXItc2VsZWN0OiBub25lOwp9CgpjbG91ZGZsYXJlLWFwcFthcHAtaWQ9ImEtYmV0dGVyLWJyb3dzZXIiXVtkYXRhLXZpc2liaWxpdHk9ImhpZGRlbiJdIHsKICBkaXNwbGF5OiBub25lOwp9CgpjbG91ZGZsYXJlLWFwcFthcHAtaWQ9ImEtYmV0dGVyLWJyb3dzZXIiXSBjbG91ZGZsYXJlLWFwcC1tZXNzYWdlIHsKICBkaXNwbGF5OiBibG9jazsKfQoKY2xvdWRmbGFyZS1hcHBbYXBwLWlkPSJhLWJldHRlci1icm93c2VyIl0gYSB7CiAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7CiAgY29sb3I6ICNlYmViZjQ7Cn0KCmNsb3VkZmxhcmUtYXBwW2FwcC1pZD0iYS1iZXR0ZXItYnJvd3NlciJdIGE6aG92ZXIsCmNsb3VkZmxhcmUtYXBwW2FwcC1pZD0iYS1iZXR0ZXItYnJvd3NlciJdIGE6YWN0aXZlIHsKICBjb2xvcjogI2RiZGJlYjsKfQoKY2xvdWRmbGFyZS1hcHBbYXBwLWlkPSJhLWJldHRlci1icm93c2VyIl0gY2xvdWRmbGFyZS1hcHAtY2xvc2UgewogIGRpc3BsYXk6IGJsb2NrOwogIGN1cnNvcjogcG9pbnRlcjsKICBmb250LXNpemU6IDEuNWVtOwogIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICByaWdodDogLjRlbTsKICB0b3A6IC4zNWVtOwogIGhlaWdodDogMWVtOwogIHdpZHRoOiAxZW07CiAgbGluZS1oZWlnaHQ6IDE7Cn0KCmNsb3VkZmxhcmUtYXBwW2FwcC1pZD0iYS1iZXR0ZXItYnJvd3NlciJdIGNsb3VkZmxhcmUtYXBwLWNsb3NlOmFjdGl2ZSB7CiAgLXdlYmtpdC10cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTsKICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpOwp9CgpjbG91ZGZsYXJlLWFwcFthcHAtaWQ9ImEtYmV0dGVyLWJyb3dzZXIiXSBjbG91ZGZsYXJlLWFwcC1jbG9zZTpob3ZlciB7CiAgb3BhY2l0eTogLjllbTsKICBjb2xvcjogI2ZmZjsKfQo="></head>
+  <body class="">
+    <div class="page animated" style="animation-duration: 500ms;">
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap" style="height: 144.712px;">
+          <nav class="rd-navbar rd-navbar-modern rd-navbar-original rd-navbar-static" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="56px" data-xl-stick-up-offset="56px" data-xxl-stick-up-offset="56px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-inner-outer">
+              <div class="rd-navbar-inner">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle toggle-original" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand"><a class="brand" href="/index.html"><img class="brand-logo-dark" src="img/logo-198x66.png" alt="" width="198" height="66"></a></div>
+                </div>
+                <div class="rd-navbar-right rd-navbar-nav-wrap toggle-original-elements">
+                  <div class="rd-navbar-aside">
+                    <ul class="rd-navbar-contacts-2">
+                      <li>
+                        <div class="unit unit-spacing-xs">
+                          <div class="unit-body"><a class="phone" href="tel:#">+7 900 999 99 99</a></div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="unit unit-spacing-xs">  
+                          <div class="unit-body">г. Владимир, ул. Девическая, д. 3</div>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="list-share-2">
+                      <li><a class="icon mdi mdi-facebook" href="https://livedemo00.template-help.com/wt_51689/#"></a></li>
+                      <li><a class="icon mdi mdi-twitter" href="https://livedemo00.template-help.com/wt_51689/#"></a></li>
+                      <li><a class="icon mdi mdi-instagram" href="https://livedemo00.template-help.com/wt_51689/#"></a></li>
+                      <li><a class="icon mdi mdi-google-plus" href="https://livedemo00.template-help.com/wt_51689/#"></a></li>
+                    </ul>
+                  </div>
+                  <div class="rd-navbar-main">
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Главная</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">О нас</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="catalog.html">Каталог</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Контакты</a></li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="cart.html">Корзина</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="rd-navbar-project-hamburger rd-navbar-project-hamburger-open rd-navbar-fixed-element-1" data-multitoggle=".rd-navbar-inner" data-multitoggle-blur=".rd-navbar-wrap" data-multitoggle-isolate="data-multitoggle-isolate">
+                  <div class="project-hamburger"><span class="project-hamburger-arrow"></span><span class="project-hamburger-arrow"></span><span class="project-hamburger-arrow"></span>
+                  </div>
+                </div>
+                <div class="rd-navbar-project">
+                  <div class="rd-navbar-project-header">
+                    <h5 class="rd-navbar-project-title">Gallery</h5>
+                    <div class="rd-navbar-project-hamburger rd-navbar-project-hamburger-close" data-multitoggle=".rd-navbar-inner" data-multitoggle-blur=".rd-navbar-wrap" data-multitoggle-isolate="data-multitoggle-isolate">
+                      <div class="project-close"><span></span><span></span></div>
+                    </div>
+                  </div>
+                  <div class="rd-navbar-project-content rd-navbar-content">
+                    <div>
+                      <div class="row gutters-20" data-lightgallery="group">
+                        <div class="col-6">
+                          <!-- Thumbnail Creative-->
+                          <article class="thumbnail thumbnail-creative"><a href="https://livedemo00.template-help.com/wt_51689/images/project-1-1200x800-original.jpg" data-lightgallery="item">
+                              <div class="thumbnail-creative-figure"><img src="img/project-1-195x164.jpg" alt="" width="195" height="164">
+                              </div>
+                              <div class="thumbnail-creative-caption"><span class="icon thumbnail-creative-icon linearicons-magnifier"></span></div></a></article>
+                        </div>
+                        <div class="col-6">
+                          <!-- Thumbnail Creative-->
+                          <article class="thumbnail thumbnail-creative"><a href="https://livedemo00.template-help.com/wt_51689/images/project-2-1200x800-original.jpg" data-lightgallery="item">
+                              <div class="thumbnail-creative-figure"><img src="img/project-2-195x164.jpg" alt="" width="195" height="164">
+                              </div>
+                              <div class="thumbnail-creative-caption"><span class="icon thumbnail-creative-icon linearicons-magnifier"></span></div></a></article>
+                        </div>
+                        <div class="col-6">
+                          <!-- Thumbnail Creative-->
+                          <article class="thumbnail thumbnail-creative"><a href="https://livedemo00.template-help.com/wt_51689/images/project-3-1200x800-original.jpg" data-lightgallery="item">
+                              <div class="thumbnail-creative-figure"><img src="img/project-3-195x164.jpg" alt="" width="195" height="164">
+                              </div>
+                              <div class="thumbnail-creative-caption"><span class="icon thumbnail-creative-icon linearicons-magnifier"></span></div></a></article>
+                        </div>
+                        <div class="col-6">
+                          <!-- Thumbnail Creative-->
+                          <article class="thumbnail thumbnail-creative"><a href="https://livedemo00.template-help.com/wt_51689/images/project-4-1200x800-original.jpg" data-lightgallery="item">
+                              <div class="thumbnail-creative-figure"><img src="img/project-4-195x164.jpg" alt="" width="195" height="164">
+                              </div>
+                              <div class="thumbnail-creative-caption"><span class="icon thumbnail-creative-icon linearicons-magnifier"></span></div></a></article>
+                        </div>
+                        <div class="col-6">
+                          <!-- Thumbnail Creative-->
+                          <article class="thumbnail thumbnail-creative"><a href="https://livedemo00.template-help.com/wt_51689/images/project-5-1200x800-original.jpg" data-lightgallery="item">
+                              <div class="thumbnail-creative-figure"><img src="img/project-5-195x164.jpg" alt="" width="195" height="164">
+                              </div>
+                              <div class="thumbnail-creative-caption"><span class="icon thumbnail-creative-icon linearicons-magnifier"></span></div></a></article>
+                        </div>
+                        <div class="col-6">
+                          <!-- Thumbnail Creative-->
+                          <article class="thumbnail thumbnail-creative"><a href="https://livedemo00.template-help.com/wt_51689/images/project-6-1200x800-original.jpg" data-lightgallery="item">
+                              <div class="thumbnail-creative-figure"><img src="img/project-6-195x164.jpg" alt="" width="195" height="164">
+                              </div>
+                              <div class="thumbnail-creative-caption"><span class="icon thumbnail-creative-icon linearicons-magnifier"></span></div></a></article>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Swiper-->
+      <section class="section swiper-container swiper-slider swiper-slider-2 swiper-slider-3 swiper-container-horizontal swiper-container-fade" data-loop="true" data-autoplay="5000" data-simulate-touch="false" data-slide-effect="fade">
+        <div class="swiper-wrapper text-sm-left" style="transition-duration: 0ms;"><div class="swiper-slide context-dark swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-slide-bg="img/slide-1-1920x753.jpg" style="background-image: url(&quot;img/slide-1-1920x753.jpg&quot;); background-size: cover; width: 1519px; transform: translate3d(0px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="1">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-8 col-lg-7 offset-lg-1 offset-xxl-0">
+                    <h1 class="oh swiper-title"><span class="d-inline-block not-animated" data-caption-animate="slideInDown" data-caption-delay="0">Quality ingredients</span></h1>
+                    <p class="big swiper-text not-animated" data-caption-animate="fadeInRight" data-caption-delay="300">We use only the best ingredients to make one-of-a-kind pizzas for our customers.</p>
+                    <div class="button-wrap oh"><a class="button button-lg button-primary button-winona button-shadow-2 not-animated" href="https://livedemo00.template-help.com/wt_51689/#" data-caption-animate="slideInUp" data-caption-delay="0">View our menu</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide context-dark swiper-slide-duplicate-active" data-slide-bg="img/slide-1-1920x753.jpg" style="background-image: url(&quot;img/slide-1-1920x753.jpg&quot;); background-size: cover; width: 1519px; transform: translate3d(-1519px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="0">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-9 col-md-8 col-lg-7 col-xl-7 offset-lg-1 offset-xxl-0">
+                    <h1 class="oh swiper-title"><span class="d-inline-block not-animated" data-caption-animate="slideInUp" data-caption-delay="0">Perfect pizza</span></h1>
+                    <p class="big swiper-text not-animated" data-caption-animate="fadeInLeft" data-caption-delay="300">Experience the taste of a perfect pizza at PizzaHouse, one of the best restaurants!</p><a class="button button-lg button-primary button-winona button-shadow-2 not-animated" href="https://livedemo00.template-help.com/wt_51689/#" data-caption-animate="fadeInUp" data-caption-delay="300"><div class="content-original">View our menu</div><div class="content-dubbed">View our menu</div></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide context-dark swiper-slide-prev swiper-slide-duplicate-next" data-slide-bg="img/slide-1-1920x753.jpg" style="background-image: url(&quot;img/slide-1-1920x753.jpg&quot;); background-size: cover; width: 1519px; transform: translate3d(-3038px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="1">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-8 col-lg-7 offset-lg-1 offset-xxl-0">
+                    <h1 class="oh swiper-title"><span class="d-inline-block not-animated" data-caption-animate="slideInDown" data-caption-delay="0">Quality ingredients</span></h1>
+                    <p class="big swiper-text not-animated" data-caption-animate="fadeInRight" data-caption-delay="300">We use only the best ingredients to make one-of-a-kind pizzas for our customers.</p>
+                    <div class="button-wrap oh"><a class="button button-lg button-primary button-winona button-shadow-2 not-animated" href="https://livedemo00.template-help.com/wt_51689/#" data-caption-animate="slideInUp" data-caption-delay="0"><div class="content-original">View our menu</div><div class="content-dubbed">View our menu</div></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="swiper-slide context-dark swiper-slide-duplicate swiper-slide-active" data-slide-bg="img/slide-1-1920x753.jpg" style="background-image: url(&quot;img/slide-1-1920x753.jpg&quot;); background-size: cover; width: 1519px; transform: translate3d(-4557px, 0px, 0px); opacity: 1; transition-duration: 0ms;" data-swiper-slide-index="0">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-9 col-md-8 col-lg-7 col-xl-7 offset-lg-1 offset-xxl-0">
+                    <h1 class="oh swiper-title"><span class="d-inline-block slideInUp animated" data-caption-animate="slideInUp" data-caption-delay="0">Perfect pizza</span></h1>
+                    <p class="big swiper-text fadeInLeft animated" data-caption-animate="fadeInLeft" data-caption-delay="300">Experience the taste of a perfect pizza at PizzaHouse, one of the best restaurants!</p><a class="button button-lg button-primary button-winona button-shadow-2 fadeInUp animated" href="https://livedemo00.template-help.com/wt_51689/#" data-caption-animate="fadeInUp" data-caption-delay="300">View our menu</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></div>
+        <!-- Swiper Pagination-->
+        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets" data-bullet-custom="true"><span class="swiper-pagination-bullet swiper-pagination-bullet-active">  <svg width="100%" height="100%" viewBox="0 0 24 24">    <circle class="swiper-bullet-line" cx="12" cy="12" r="10"></circle>    <circle class="swiper-bullet-line-2" cx="12" cy="12" r="10"></circle>  </svg></span><span class="swiper-pagination-bullet">  <svg width="100%" height="100%" viewBox="0 0 24 24">    <circle class="swiper-bullet-line" cx="12" cy="12" r="10"></circle>    <circle class="swiper-bullet-line-2" cx="12" cy="12" r="10"></circle>  </svg></span></div>
+        <!-- Swiper Navigation-->
+        <div class="swiper-button-prev">
+          <div class="preview">
+            <div class="preview__img" style="background-image: url(&quot;img/slide-1-1920x753.jpg&quot;);"></div>
+          </div>
+          <div class="swiper-button-arrow"></div>
+        </div>
+        <div class="swiper-button-next">
+          <div class="swiper-button-arrow"></div>
+          <div class="preview">
+            <div class="preview__img" style="background-image: url(&quot;img/slide-1-1920x753.jpg&quot;);"></div>
+          </div>
+        </div>
+      </section>
+      <!-- What We Offer-->
+      <section class="section section-md bg-default">
+        <div class="container">
+          <h3 class="oh-desktop"><span class="d-inline-block wow slideInDown" style="visibility: visible; animation-name: slideInDown;">Our Menu</span></h3>
+          <div class="row row-md row-30">
+            <div class="col-sm-6 col-lg-4">
+              <div class="oh-desktop">
+                <!-- Services Terri-->
+                <article class="services-terri wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
+                  <div class="services-terri-figure"><img src="img/menu-1-370x278.jpg" alt="" width="370" height="278">
+                  </div>
+                  <div class="services-terri-caption"><span class="services-terri-icon linearicons-leaf"></span>
+                    <h5 class="services-terri-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Salads</a></h5>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="oh-desktop">
+                <!-- Services Terri-->
+                <article class="services-terri wow slideInDown" style="visibility: visible; animation-name: slideInDown;">
+                  <div class="services-terri-figure"><img src="img/menu-2-370x278.jpg" alt="" width="370" height="278">
+                  </div>
+                  <div class="services-terri-caption"><span class="services-terri-icon linearicons-pizza"></span>
+                    <h5 class="services-terri-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Pizzas</a></h5>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="oh-desktop">
+                <!-- Services Terri-->
+                <article class="services-terri wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
+                  <div class="services-terri-figure"><img src="img/menu-3-370x278.jpg" alt="" width="370" height="278">
+                  </div>
+                  <div class="services-terri-caption"><span class="services-terri-icon linearicons-hamburger"></span>
+                    <h5 class="services-terri-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Burgers</a></h5>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="oh-desktop">
+                <!-- Services Terri-->
+                <article class="services-terri wow slideInDown" style="visibility: visible; animation-name: slideInDown;">
+                  <div class="services-terri-figure"><img src="img/menu-4-370x278.jpg" alt="" width="370" height="278">
+                  </div>
+                  <div class="services-terri-caption"><span class="services-terri-icon linearicons-ice-cream"></span>
+                    <h5 class="services-terri-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Desserts</a></h5>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="oh-desktop">
+                <!-- Services Terri-->
+                <article class="services-terri wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
+                  <div class="services-terri-figure"><img src="img/menu-5-370x278.jpg" alt="" width="370" height="278">
+                  </div>
+                  <div class="services-terri-caption"><span class="services-terri-icon linearicons-coffee-cup"></span>
+                    <h5 class="services-terri-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Drinks</a></h5>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <div class="oh-desktop">
+                <!-- Services Terri-->
+                <article class="services-terri wow slideInDown" style="visibility: visible; animation-name: slideInDown;">
+                  <div class="services-terri-figure"><img src="img/menu-6-370x278.jpg" alt="" width="370" height="278">
+                  </div>
+                  <div class="services-terri-caption"><span class="services-terri-icon linearicons-steak"></span>
+                    <h5 class="services-terri-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Seafood</a></h5>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section CTA-->
+      <section class="primary-overlay section parallax-container" data-parallax-img="img/bg-3.jpg">
+        <div class="material-parallax parallax">
+            <img src="img/bg-3.jpg" alt="" style="display: block; transform: translate3d(-50%, 1px, 0px);">
+        </div>
+        <div class="parallax-content section-xl context-dark text-md-left">
+          <div class="container">
+            <div class="row justify-content-end">
+              <div class="col-sm-8 col-md-7 col-lg-5">
+                <div class="cta-modern">
+                  <h3 class="cta-modern-title wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">Best atmosphere</h3>
+                  <p class="lead">PizzaHouse is the place of the best pizza and high-quality service.</p>
+                  <p class="cta-modern-text oh-desktop" data-wow-delay=".1s"><span class="cta-modern-decor wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;"></span><span class="d-inline-block wow slideInDown" style="visibility: visible; animation-name: slideInDown;">Ben Smith, Founder</span></p><a class="button button-md button-secondary-2 button-winona wow fadeInUp" href="https://livedemo00.template-help.com/wt_51689/#" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"><div class="content-original">View Our Services</div><div class="content-dubbed">View Our Services</div></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Shop-->
+      <section class="section section-lg bg-default">
+        <div class="container">
+          <h3 class="oh-desktop"><span class="d-inline-block wow slideInUp" style="visibility: visible; animation-name: slideInUp;">Selected Pizzas</span></h3>
+          <div class="row row-lg row-30">
+            <div class="col-sm-6 col-lg-4 col-xl-3">
+              <!-- Product-->
+              <article class="product wow fadeInLeft" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInLeft;">
+                <div class="product-figure"><img src="img/product-1-161x162.png" alt="" width="161" height="162">
+                </div>
+                <div class="product-rating"><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star text-gray-13"></span>
+                </div>
+                <h6 class="product-title">Margherita Pizza</h6>
+                <div class="product-price-wrap">
+                  <div class="product-price">$24.00</div>
+                </div>
+                <div class="product-button">
+                  <div class="button-wrap"><a class="button button-xs button-primary button-winona" href="https://livedemo00.template-help.com/wt_51689/#"><div class="content-original">Add to cart</div><div class="content-dubbed">Add to cart</div></a></div>
+                  <div class="button-wrap"><a class="button button-xs button-secondary button-winona" href="https://livedemo00.template-help.com/wt_51689/#"><div class="content-original">View Product</div><div class="content-dubbed">View Product</div></a></div>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3">
+              <!-- Product-->
+              <article class="product wow fadeInLeft" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
+                <div class="product-figure"><img src="img/product-2-161x162.png" alt="" width="161" height="162">
+                </div>
+                <div class="product-rating"><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span>
+                </div>
+                <h6 class="product-title">Mushroom Pizza</h6>
+                <div class="product-price-wrap">
+                  <div class="product-price">$24.00</div>
+                </div>
+                <div class="product-button">
+                  <div class="button-wrap"><a class="button button-xs button-primary button-winona" href="https://livedemo00.template-help.com/wt_51689/#"><div class="content-original">Add to cart</div><div class="content-dubbed">Add to cart</div></a></div>
+                  <div class="button-wrap"><a class="button button-xs button-secondary button-winona" href="https://livedemo00.template-help.com/wt_51689/#"><div class="content-original">View Product</div><div class="content-dubbed">View Product</div></a></div>
+                </div><span class="product-badge product-badge-new">New</span>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3">
+              <!-- Product-->
+              <article class="product wow fadeInLeft" data-wow-delay=".05s" style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInLeft;">
+                <div class="product-figure"><img src="img/product-3-161x162.png" alt="" width="161" height="162">
+                </div>
+                <div class="product-rating"><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star text-gray-13"></span>
+                </div>
+                <h6 class="product-title">Hawaiian Pizza</h6>
+                <div class="product-price-wrap">
+                  <div class="product-price">$24.00</div>
+                </div>
+                <div class="product-button">
+                  <div class="button-wrap"><a class="button button-xs button-primary button-winona" href="https://livedemo00.template-help.com/wt_51689/#"><div class="content-original">Add to cart</div><div class="content-dubbed">Add to cart</div></a></div>
+                  <div class="button-wrap"><a class="button button-xs button-secondary button-winona" href="https://livedemo00.template-help.com/wt_51689/#"><div class="content-original">View Product</div><div class="content-dubbed">View Product</div></a></div>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3">
+              <!-- Product-->
+              <article class="product wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                <div class="product-figure"><img src="img/product-4-161x162.png" alt="" width="161" height="162">
+                </div>
+                <div class="product-rating"><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span>
+                </div>
+                <h6 class="product-title">Pesto Pizza</h6>
+                <div class="product-price-wrap">
+                  <div class="product-price product-price-old">$40.00</div>
+                  <div class="product-price">$24.00</div>
+                </div>
+                <div class="product-button">
+                  <div class="button-wrap"><a class="button button-xs button-primary button-winona" href="https://livedemo00.template-help.com/wt_51689/#"><div class="content-original">Add to cart</div><div class="content-dubbed">Add to cart</div></a></div>
+                  <div class="button-wrap"><a class="button button-xs button-secondary button-winona" href="https://livedemo00.template-help.com/wt_51689/#"><div class="content-original">View Product</div><div class="content-dubbed">View Product</div></a></div>
+                </div><span class="product-badge product-badge-sale">Sale</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section CTA-->
+      <section class="primary-overlay section parallax-container" data-parallax-img="images/bg-4.jpg"><div class="material-parallax parallax"><img src="img/bg-4.jpg" alt="" style="display: block; transform: translate3d(-50%, 3px, 0px);"></div>
+        <div class="parallax-content section-xxl context-dark text-md-left">
+          <div class="container">
+            <div class="row justify-content-end">
+              <div class="col-sm-9 col-md-7 col-lg-5">
+                <div class="cta-modern">
+                  <h3 class="cta-modern-title cta-modern-title-2 oh-desktop"><span class="d-inline-block wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">-30% on all salads &amp; drinks</span></h3>
+                  <p class="cta-modern-text cta-modern-text-2 oh-desktop" data-wow-delay=".1s"><span class="cta-modern-decor cta-modern-decor-2 wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;"></span><span class="d-inline-block wow slideInUp" style="visibility: visible; animation-name: slideInUp;">Taste some of the best PizzaHouse salads!</span></p><a class="button button-lg button-secondary button-winona wow fadeInRight" href="https://livedemo00.template-help.com/wt_51689/contacts.html" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInRight;"><div class="content-original">contact us</div><div class="content-dubbed">contact us</div></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- What We Offer-->
+      <section class="section section-xl bg-default">
+        <div class="container">
+          <h3 class="wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">What People Say</h3>
+        </div>
+        <div class="container container-style-1">
+          <div class="owl-carousel owl-style-12 owl-loaded owl-drag" data-items="1" data-sm-items="2" data-lg-items="3" data-margin="30" data-xl-margin="45" data-autoplay="true" data-nav="true" data-center="true" data-smart-speed="400" style="">
+            <!-- Quote Tara-->
+            
+            <!-- Quote Tara-->
+            
+            <!-- Quote Tara-->
+            
+            <!-- Quote Tara-->
+            
+          <div class="owl-stage-outer"><div class="owl-stage" style="transition: all 0.4s ease 0s; width: 4050px; transform: translate3d(-1620px, 0px, 0px);"><div class="owl-item cloned" style="width: 360px; margin-right: 45px;"><article class="quote-tara">
+              <div class="quote-tara-caption">
+                <div class="quote-tara-text">
+                  <p class="q">I am a real pizza addict, and even when I’m home I prefer your pizzas to all others. They taste awesome and are very affordable.</p>
+                </div>
+                <div class="quote-tara-figure"><img src="img/user-8-115x115.jpg" alt="" width="115" height="115">
+                </div>
+              </div>
+              <h6 class="quote-tara-author">Stephanie Williams</h6>
+              <div class="quote-tara-status">Client</div>
+            </article></div><div class="owl-item cloned" style="width: 360px; margin-right: 45px;"><article class="quote-tara">
+              <div class="quote-tara-caption">
+                <div class="quote-tara-text">
+                  <p class="q">PizzaHouse has amazing pizza. Not only do you get served with a great attitude, you also get delicious pizza at a great price!</p>
+                </div>
+                <div class="quote-tara-figure"><img src="img/user-7-115x115.jpg" alt="" width="115" height="115">
+                </div>
+              </div>
+              <h6 class="quote-tara-author">Bill Johnson</h6>
+              <div class="quote-tara-status">Client</div>
+            </article></div><div class="owl-item cloned" style="width: 360px; margin-right: 45px;"><article class="quote-tara">
+              <div class="quote-tara-caption">
+                <div class="quote-tara-text">
+                  <p class="q">PizzaHouse has great pizza. Not only do you get served with a great attitude and delivered delicious pizza, you get a great price.</p>
+                </div>
+                <div class="quote-tara-figure"><img src="img/user-9-115x115.jpg" alt="" width="115" height="115">
+                </div>
+              </div>
+              <h6 class="quote-tara-author">Aaron Wilson</h6>
+              <div class="quote-tara-status">Client</div>
+            </article></div><div class="owl-item" style="width: 360px; margin-right: 45px;"><article class="quote-tara">
+              <div class="quote-tara-caption">
+                <div class="quote-tara-text">
+                  <p class="q">PizzaHouse is the longest lasting pizza place in the city and is well run and staffed. Prices are great and allow me to keep coming back.</p>
+                </div>
+                <div class="quote-tara-figure"><img src="img/user-6-115x115.jpg" alt="" width="115" height="115">
+                </div>
+              </div>
+              <h6 class="quote-tara-author">Ashley Fitzgerald</h6>
+              <div class="quote-tara-status">Client</div>
+            </article></div><div class="owl-item active" style="width: 360px; margin-right: 45px;"><article class="quote-tara">
+              <div class="quote-tara-caption">
+                <div class="quote-tara-text">
+                  <p class="q">I am a real pizza addict, and even when I’m home I prefer your pizzas to all others. They taste awesome and are very affordable.</p>
+                </div>
+                <div class="quote-tara-figure"><img src="img/user-8-115x115.jpg" alt="" width="115" height="115">
+                </div>
+              </div>
+              <h6 class="quote-tara-author">Stephanie Williams</h6>
+              <div class="quote-tara-status">Client</div>
+            </article></div><div class="owl-item active center" style="width: 360px; margin-right: 45px;"><article class="quote-tara">
+              <div class="quote-tara-caption">
+                <div class="quote-tara-text">
+                  <p class="q">PizzaHouse has amazing pizza. Not only do you get served with a great attitude, you also get delicious pizza at a great price!</p>
+                </div>
+                <div class="quote-tara-figure"><img src="img/user-7-115x115.jpg" alt="" width="115" height="115">
+                </div>
+              </div>
+              <h6 class="quote-tara-author">Bill Johnson</h6>
+              <div class="quote-tara-status">Client</div>
+            </article></div><div class="owl-item active" style="width: 360px; margin-right: 45px;"><article class="quote-tara">
+              <div class="quote-tara-caption">
+                <div class="quote-tara-text">
+                  <p class="q">PizzaHouse has great pizza. Not only do you get served with a great attitude and delivered delicious pizza, you get a great price.</p>
+                </div>
+                <div class="quote-tara-figure"><img src="img/user-9-115x115.jpg" alt="" width="115" height="115">
+                </div>
+              </div>
+              <h6 class="quote-tara-author">Aaron Wilson</h6>
+              <div class="quote-tara-status">Client</div>
+            </article></div><div class="owl-item cloned" style="width: 360px; margin-right: 45px;"><article class="quote-tara">
+              <div class="quote-tara-caption">
+                <div class="quote-tara-text">
+                  <p class="q">PizzaHouse is the longest lasting pizza place in the city and is well run and staffed. Prices are great and allow me to keep coming back.</p>
+                </div>
+                <div class="quote-tara-figure"><img src="img/user-6-115x115.jpg" alt="" width="115" height="115">
+                </div>
+              </div>
+              <h6 class="quote-tara-author">Ashley Fitzgerald</h6>
+              <div class="quote-tara-status">Client</div>
+            </article></div><div class="owl-item cloned" style="width: 360px; margin-right: 45px;"><article class="quote-tara">
+              <div class="quote-tara-caption">
+                <div class="quote-tara-text">
+                  <p class="q">I am a real pizza addict, and even when I’m home I prefer your pizzas to all others. They taste awesome and are very affordable.</p>
+                </div>
+                <div class="quote-tara-figure"><img src="img/user-8-115x115.jpg" alt="" width="115" height="115">
+                </div>
+              </div>
+              <h6 class="quote-tara-author">Stephanie Williams</h6>
+              <div class="quote-tara-status">Client</div>
+            </article></div><div class="owl-item cloned" style="width: 360px; margin-right: 45px;"><article class="quote-tara">
+              <div class="quote-tara-caption">
+                <div class="quote-tara-text">
+                  <p class="q">PizzaHouse has amazing pizza. Not only do you get served with a great attitude, you also get delicious pizza at a great price!</p>
+                </div>
+                <div class="quote-tara-figure"><img src="img/user-7-115x115.jpg" alt="" width="115" height="115">
+                </div>
+              </div>
+              <h6 class="quote-tara-author">Bill Johnson</h6>
+              <div class="quote-tara-status">Client</div>
+            </article></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"></button><button type="button" role="presentation" class="owl-next"></button></div><div class="owl-dots disabled"></div></div>
+        </div>
+      </section>
+
+      <section class="section section-last bg-default">
+        <div class="container-fluid container-inset-0 isotope-wrap">
+          <div class="row row-10 gutters-10 isotope" data-isotope-layout="masonry" data-isotope-group="gallery" data-lightgallery="group" style="position: relative; height: 477.15px;">
+            <div class="col-xs-6 col-sm-4 col-xl-2 isotope-item oh-desktop" style="position: absolute; left: 0px; top: 0px;">
+              <!-- Thumbnail Mary-->
+              <article class="thumbnail thumbnail-mary thumbnail-mary-2 wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;"><a class="thumbnail-mary-figure" href="https://livedemo00.template-help.com/wt_51689/images/gallery-1-1200x800-original.jpg" data-lightgallery="item"><img src="img/gallery-1-310x585.jpg" alt="" width="310" height="585"></a>
+                <div class="thumbnail-mary-caption">
+                  <div>
+                    <h6 class="thumbnail-mary-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Best Ingredients</a></h6>
+                    <div class="thumbnail-mary-location">Tasty Pizza</div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-xs-6 col-sm-8 col-xl-4 isotope-item oh-desktop" style="position: absolute; left: 254px; top: 0px;">
+              <!-- Thumbnail Mary-->
+              <article class="thumbnail thumbnail-mary thumbnail-mary-big wow slideInRight" style="visibility: visible; animation-name: slideInRight;"><a class="thumbnail-mary-figure" href="https://livedemo00.template-help.com/wt_51689/images/gallery-2-1200x800-original.jpg" data-lightgallery="item"><img src="img/gallery-2-631x587.jpg" alt="" width="631" height="587"></a>
+                <div class="thumbnail-mary-caption">
+                  <div>
+                    <h6 class="thumbnail-mary-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Comfortable interior</a></h6>
+                    <div class="thumbnail-mary-location">Modern Design</div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-xl-2 isotope-item oh-desktop" style="position: absolute; left: 764px; top: 0px;">
+              <!-- Thumbnail Mary-->
+              <article class="thumbnail thumbnail-mary thumbnail-mary-2 wow slideInDown" style="visibility: visible; animation-name: slideInDown;"><a class="thumbnail-mary-figure" href="https://livedemo00.template-help.com/wt_51689/images/gallery-3-1200x800-original.jpg" data-lightgallery="item"><img src="img/gallery-3-311x289.jpg" alt="" width="311" height="289"></a>
+                <div class="thumbnail-mary-caption">
+                  <div>
+                    <h6 class="thumbnail-mary-title"><a href="https://livedemo00.template-help.com/wt_51689/#">quality Dishware</a></h6>
+                    <div class="thumbnail-mary-location">Top-notch utensils</div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-xs-6 col-sm-8 col-xl-4 isotope-item oh-desktop" style="position: absolute; left: 1019px; top: 0px;">
+              <!-- Thumbnail Mary-->
+              <article class="thumbnail thumbnail-mary wow slideInUp" style="visibility: visible; animation-name: slideInUp;"><a class="thumbnail-mary-figure" href="https://livedemo00.template-help.com/wt_51689/images/gallery-4-1200x800-original.jpg" data-lightgallery="item"><img src="img/gallery-4-631x289.jpg" alt="" width="631" height="289"></a>
+                <div class="thumbnail-mary-caption">
+                  <div>
+                    <h6 class="thumbnail-mary-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Refreshing cocktails</a></h6>
+                    <div class="thumbnail-mary-location">Exclusive selection</div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-xl-2 isotope-item oh-desktop" style="position: absolute; left: 764px; top: 237px;">
+              <!-- Thumbnail Mary-->
+              <article class="thumbnail thumbnail-mary thumbnail-mary-2 wow slideInUp" style="visibility: visible; animation-name: slideInUp;"><a class="thumbnail-mary-figure" href="https://livedemo00.template-help.com/wt_51689/images/gallery-5-1200x800-original.jpg" data-lightgallery="item"><img src="img/gallery-5-311x289.jpg" alt="" width="311" height="289"></a>
+                <div class="thumbnail-mary-caption">
+                  <div>
+                    <h6 class="thumbnail-mary-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Exotic Salads</a></h6>
+                    <div class="thumbnail-mary-location">Summer Taste</div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-xl-2 isotope-item oh-desktop" style="position: absolute; left: 1019px; top: 238px;">
+              <!-- Thumbnail Mary-->
+              <article class="thumbnail thumbnail-mary thumbnail-mary-2 wow slideInRight" style="visibility: visible; animation-name: slideInRight;"><a class="thumbnail-mary-figure" href="https://livedemo00.template-help.com/wt_51689/images/gallery-6-1200x800-original.jpg" data-lightgallery="item"><img src="img/gallery-6-311x289.jpg" alt="" width="311" height="289"></a>
+                <div class="thumbnail-mary-caption">
+                  <div>
+                    <h6 class="thumbnail-mary-title"><a href="https://livedemo00.template-help.com/wt_51689/#">All Types of pizza</a></h6>
+                    <div class="thumbnail-mary-location">Special Recipes</div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-xl-2 isotope-item oh-desktop" style="position: absolute; left: 1274px; top: 238px;">
+              <!-- Thumbnail Mary-->
+              <article class="thumbnail thumbnail-mary thumbnail-mary-2 wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;"><a class="thumbnail-mary-figure" href="https://livedemo00.template-help.com/wt_51689/images/gallery-7-1200x800-original.jpg" data-lightgallery="item"><img src="img/gallery-7-311x289.jpg" alt="" width="311" height="289"></a>
+                <div class="thumbnail-mary-caption">
+                  <div>
+                    <h6 class="thumbnail-mary-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Diverse menu</a></h6>
+                    <div class="thumbnail-mary-location">Pick Your Favorite dish</div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tell-->
+      <section class="section section-sm section-first bg-default">
+        <div class="container">
+          <h3 class="heading-3">Book your Table</h3>
+          <form class="rd-form rd-mailform form-style-1" data-form-output="form-output-global" data-form-type="contact" method="post" action="https://livedemo00.template-help.com/wt_51689/bat/rd-mailform.php" novalidate="novalidate">
+            <div class="row row-20 gutters-20">
+              <div class="col-md-6 col-lg-4 oh-desktop">
+                <div class="form-wrap wow slideInDown" style="visibility: visible; animation-name: slideInDown;">
+                  <input class="form-input form-control-has-validation" id="contact-your-name-6" type="text" name="name" data-constraints="@Required"><span class="form-validation"></span>
+                  <label class="form-label rd-input-label" for="contact-your-name-6">Your Name*</label>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 oh-desktop">
+                <div class="form-wrap wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
+                  <input class="form-input form-control-has-validation" id="contact-email-6" type="email" name="email" data-constraints="@Email @Required"><span class="form-validation"></span>
+                  <label class="form-label rd-input-label" for="contact-email-6">Your E-mail*</label>
+                </div>
+              </div>
+              <div class="col-lg-4 oh-desktop">
+                <div class="form-wrap wow slideInDown" style="visibility: visible; animation-name: slideInDown;">
+                  <!--Select 2-->
+                  <div class="select2-container form-input form-control-has-validation form-control-last-child" id="s2id_regula-generated-174865"><a href="javascript:void(0)" class="select2-choice" tabindex="-1">   <span class="select2-chosen" id="select2-chosen-1">Select a Service</span><abbr class="select2-search-choice-close"></abbr>   <span class="select2-arrow" role="presentation"><b role="presentation"></b></span></a><label for="s2id_autogen1" class="select2-offscreen"></label><input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-1" id="s2id_autogen1"><div class="select2-drop select2-display-none">   <div class="select2-search select2-search-hidden select2-offscreen">       <label for="s2id_autogen1_search" class="select2-offscreen"></label>       <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-1" id="s2id_autogen1_search" placeholder="">   </div>   <ul class="select2-results" role="listbox" id="select2-results-1">   </ul></div></div><select class="form-input form-control-has-validation form-control-last-child" data-minimum-results-for-search="Infinity" data-constraints="@Required" id="regula-generated-174865" tabindex="-1" title="" style="display: none;">
+                    <option value="1">Select a Service</option>
+                    <option value="2">Dine-In</option>
+                    <option value="3">Carry-Out</option>
+                    <option value="4">Event Catering</option>
+                  </select><span class="form-validation"></span>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-wrap wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                  <label class="form-label rd-input-label" for="contact-message-6">Message</label>
+                  <textarea class="form-input textarea-lg form-control-has-validation form-control-last-child" id="contact-message-6" name="message" data-constraints="@Required"></textarea><span class="form-validation"></span>
+                </div>
+              </div>
+            </div>
+            <div class="group-custom-1 group-middle oh-desktop">
+              <button class="button button-lg button-primary button-winona wow fadeInRight" type="submit" style="visibility: visible; animation-name: fadeInRight;"><div class="content-original">Send message</div><div class="content-dubbed">Send message</div></button>
+              <!-- Quote Classic-->
+              <article class="quote-classic quote-classic-3 wow slideInDown" style="visibility: visible; animation-name: slideInDown;">
+                <div class="quote-classic-text">
+                  <p class="q">Please reserve your table at least 1 day in advance.</p>
+                </div>
+              </article>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Section Services  Last section-->
+      <section class="section section-sm bg-default">
+        <div class="container">
+          <div class="owl-carousel owl-style-11 dots-style-2 owl-loaded owl-drag" data-items="1" data-sm-items="1" data-lg-items="2" data-xl-items="4" data-margin="30" data-dots="true" data-mouse-drag="true" data-rtl="true" style="">
+            
+            
+            
+            
+          <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1200px, 0px, 0px); transition: all 0s ease 0s; width: 3600px;"><div class="owl-item cloned" style="width: 270px; margin-right: 30px;"><article class="box-icon-megan wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+              <div class="box-icon-megan-header">
+                <div class="box-icon-megan-icon linearicons-bag"></div>
+              </div>
+              <h5 class="box-icon-megan-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Free Delivery</a></h5>
+              <p class="box-icon-megan-text">If you order more than 3 pizzas, we will gladly deliver them to you for free.</p>
+            </article></div><div class="owl-item cloned" style="width: 270px; margin-right: 30px;"><article class="box-icon-megan wow fadeInUp" data-wow-delay=".05s" style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">
+              <div class="box-icon-megan-header">
+                <div class="box-icon-megan-icon linearicons-map2"></div>
+              </div>
+              <h5 class="box-icon-megan-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Convenient Location</a></h5>
+              <p class="box-icon-megan-text">Our pizzeria is situated in the downtown and is very easy to reach even on weekends.</p>
+            </article></div><div class="owl-item cloned" style="width: 270px; margin-right: 30px;"><article class="box-icon-megan wow fadeInUp" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+              <div class="box-icon-megan-header">
+                <div class="box-icon-megan-icon linearicons-radar"></div>
+              </div>
+              <h5 class="box-icon-megan-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Free Wi-Fi</a></h5>
+              <p class="box-icon-megan-text">We have free Wi-Fi available to all clients and visitors of our pizzeria.</p>
+            </article></div><div class="owl-item cloned" style="width: 270px; margin-right: 30px;"><article class="box-icon-megan wow fadeInUp" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+              <div class="box-icon-megan-header">
+                <div class="box-icon-megan-icon linearicons-thumbs-up"></div>
+              </div>
+              <h5 class="box-icon-megan-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Best Service</a></h5>
+              <p class="box-icon-megan-text">The client is our #1 priority as we deliver top-notch customer service.</p>
+            </article></div><div class="owl-item active" style="width: 270px; margin-right: 30px;"><article class="box-icon-megan wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+              <div class="box-icon-megan-header">
+                <div class="box-icon-megan-icon linearicons-bag"></div>
+              </div>
+              <h5 class="box-icon-megan-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Free Delivery</a></h5>
+              <p class="box-icon-megan-text">If you order more than 3 pizzas, we will gladly deliver them to you for free.</p>
+            </article></div><div class="owl-item active" style="width: 270px; margin-right: 30px;"><article class="box-icon-megan wow fadeInUp" data-wow-delay=".05s" style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">
+              <div class="box-icon-megan-header">
+                <div class="box-icon-megan-icon linearicons-map2"></div>
+              </div>
+              <h5 class="box-icon-megan-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Convenient Location</a></h5>
+              <p class="box-icon-megan-text">Our pizzeria is situated in the downtown and is very easy to reach even on weekends.</p>
+            </article></div><div class="owl-item active" style="width: 270px; margin-right: 30px;"><article class="box-icon-megan wow fadeInUp" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+              <div class="box-icon-megan-header">
+                <div class="box-icon-megan-icon linearicons-radar"></div>
+              </div>
+              <h5 class="box-icon-megan-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Free Wi-Fi</a></h5>
+              <p class="box-icon-megan-text">We have free Wi-Fi available to all clients and visitors of our pizzeria.</p>
+            </article></div><div class="owl-item active" style="width: 270px; margin-right: 30px;"><article class="box-icon-megan wow fadeInUp" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+              <div class="box-icon-megan-header">
+                <div class="box-icon-megan-icon linearicons-thumbs-up"></div>
+              </div>
+              <h5 class="box-icon-megan-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Best Service</a></h5>
+              <p class="box-icon-megan-text">The client is our #1 priority as we deliver top-notch customer service.</p>
+            </article></div><div class="owl-item cloned" style="width: 270px; margin-right: 30px;"><article class="box-icon-megan wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+              <div class="box-icon-megan-header">
+                <div class="box-icon-megan-icon linearicons-bag"></div>
+              </div>
+              <h5 class="box-icon-megan-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Free Delivery</a></h5>
+              <p class="box-icon-megan-text">If you order more than 3 pizzas, we will gladly deliver them to you for free.</p>
+            </article></div><div class="owl-item cloned" style="width: 270px; margin-right: 30px;"><article class="box-icon-megan wow fadeInUp" data-wow-delay=".05s" style="visibility: visible; animation-delay: 0.05s; animation-name: fadeInUp;">
+              <div class="box-icon-megan-header">
+                <div class="box-icon-megan-icon linearicons-map2"></div>
+              </div>
+              <h5 class="box-icon-megan-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Convenient Location</a></h5>
+              <p class="box-icon-megan-text">Our pizzeria is situated in the downtown and is very easy to reach even on weekends.</p>
+            </article></div><div class="owl-item cloned" style="width: 270px; margin-right: 30px;"><article class="box-icon-megan wow fadeInUp" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+              <div class="box-icon-megan-header">
+                <div class="box-icon-megan-icon linearicons-radar"></div>
+              </div>
+              <h5 class="box-icon-megan-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Free Wi-Fi</a></h5>
+              <p class="box-icon-megan-text">We have free Wi-Fi available to all clients and visitors of our pizzeria.</p>
+            </article></div><div class="owl-item cloned" style="width: 270px; margin-right: 30px;"><article class="box-icon-megan wow fadeInUp" data-wow-delay=".15s" style="visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;">
+              <div class="box-icon-megan-header">
+                <div class="box-icon-megan-icon linearicons-thumbs-up"></div>
+              </div>
+              <h5 class="box-icon-megan-title"><a href="https://livedemo00.template-help.com/wt_51689/#">Best Service</a></h5>
+              <p class="box-icon-megan-text">The client is our #1 priority as we deliver top-notch customer service.</p>
+            </article></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"></button><button type="button" role="presentation" class="owl-next"></button></div><div class="owl-dots disabled"><button role="button" class="owl-dot active"><span></span></button></div></div>
+        </div>
+      </section>
+
+      <!-- Bottom Banner--><a class="section section-banner" href="https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="img/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a>
+      <!-- Page Footer-->
+      <footer class="section footer-modern context-dark footer-modern-2">
+        <div class="footer-modern-line">
+          <div class="container">
+            <div class="row row-50">
+              <div class="col-md-6 col-lg-4">
+                <h5 class="footer-modern-title oh-desktop"><span class="d-inline-block wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">Что мы предлагаем</span></h5>
+                <ul class="footer-modern-list d-inline-block d-sm-block wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                  <li><a href="/catalog.html">Мягкие сыры</a></li>
+                  <li><a href="/catalog.html">Твердые сыры</a></li>
+                  <li><a href="/catalog.html">Молоко</a></li>
+                  <li><a href="/catalog.html">Сливочное масло</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <h5 class="footer-modern-title oh-desktop"><span class="d-inline-block wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">Информация</span></h5>
+                <ul class="footer-modern-list d-inline-block d-sm-block wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                  <li><a href="/about.html">О нас</a></li>
+                  <li><a href="https://livedemo00.template-help.com/wt_51689/#">Каталог</a></li>
+                  <li><a href="https://livedemo00.template-help.com/wt_51689/#">Акции</a></li>
+                  <li><a href="https://livedemo00.template-help.com/wt_51689/#">Контакты</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-4 col-xl-5">
+                <h5 class="footer-modern-title oh-desktop"><span class="d-inline-block wow slideInLeft" style="visibility: visible; animation-name: slideInLeft;">Подписаться</span></h5>
+                <p class="wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">Подпишись на рассылку и получи промокод на 10%</p>
+                <!-- RD Mailform-->
+                <form class="rd-form rd-mailform rd-form-inline rd-form-inline-sm oh-desktop" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="https://livedemo00.template-help.com/wt_51689/bat/rd-mailform.php" novalidate="novalidate">
+                  <div class="form-wrap wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
+                    <input class="form-input form-control-has-validation" id="subscribe-form-2-email" type="email" name="email" data-constraints="@Email @Required"><span class="form-validation"></span>
+                    <label class="form-label rd-input-label" for="subscribe-form-2-email">Введите E-mail</label>
+                  </div>
+                  <div class="form-button form-button-2 wow slideInRight" style="visibility: visible; animation-name: slideInRight;">
+                    <button class="button button-sm button-icon-3 button-primary button-winona" type="submit"><div class="content-original"><span class="d-none d-xl-inline-block">Подписаться</span><span class="icon mdi mdi-telegram d-xl-none"></span></div><div class="content-dubbed"><span class="d-none d-xl-inline-block">Подписаться</span><span class="icon mdi mdi-telegram d-xl-none"></span></div></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-modern-line-2">
+          <div class="container">
+            <div class="row row-30 align-items-center">
+              <div class="col-sm-6 col-md-7 col-lg-4 col-xl-4">
+                <div class="row row-30 align-items-center text-lg-center">
+                  <div class="col-md-7 col-xl-6"><a class="brand" href="/index.html"><img src="img/logo-inverse-198x66.png" alt="" width="198" height="66"></a></div>
+                  <div class="col-md-5 col-xl-6">
+                    <div class="iso-1"><span><img src="img/like-icon-58x25.png" alt="" width="58" height="25"></span><span class="iso-1-big">9.4k</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-12 col-lg-8 col-xl-8 oh-desktop">
+                <div class="group-xmd group-sm-justify">
+                  <div class="footer-modern-contacts wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
+                    <div class="unit unit-spacing-sm align-items-center">
+                      <div class="unit-left"><span class="icon icon-24 mdi mdi-phone"></span></div>
+                      <div class="unit-body"><a class="phone" href="tel:#">+7 900 999 99 99</a></div>
+                    </div>
+                  </div>
+                  <div class="footer-modern-contacts wow slideInDown" style="visibility: visible; animation-name: slideInDown;">
+                    <div class="unit unit-spacing-sm align-items-center">
+                      <div class="unit-left"><span class="icon mdi mdi-email"></span></div>
+                      <div class="unit-body"><a class="mail" href="mailto:#">info@demolink.org</a></div>
+                    </div>
+                  </div>
+                  <div class="wow slideInRight" style="visibility: visible; animation-name: slideInRight;">
+                    <ul class="list-inline footer-social-list footer-social-list-2 footer-social-list-3">
+                      <li><a class="icon mdi mdi-facebook" href="https://livedemo00.template-help.com/wt_51689/#"></a></li>
+                      <li><a class="icon mdi mdi-twitter" href="https://livedemo00.template-help.com/wt_51689/#"></a></li>
+                      <li><a class="icon mdi mdi-instagram" href="https://livedemo00.template-help.com/wt_51689/#"></a></li>
+                      <li><a class="icon mdi mdi-google-plus" href="https://livedemo00.template-help.com/wt_51689/#"></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-modern-line-3">
+          <div class="container">
+            <div class="row row-10 justify-content-between">
+              <div class="col-md-6"><span>г. Владимир, ул. Девическая, д. 3</span></div>
+              <div class="col-md-auto">
+                <!-- Rights-->
+                <p class="rights"><span>©&nbsp;</span><span class="copyright-year">2023</span><span></span><span>.&nbsp;</span><span>Все права защищены</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- coded by Himic-->
+	
+	<!--LIVEDEMO_00 -->
+
+	<script type="text/javascript">
+	 var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-7078796-5']);
+	  _gaq.push(['_trackPageview']);
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();</script>
+	
+  <!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9FT69" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9FT69');</script><!-- End Google Tag Manager -->
+<a href="https://livedemo00.template-help.com/wt_51689/#" id="ui-to-top" class="ui-to-top mdi mdi-arrow-up"></a><span role="status" aria-live="polite" class="select2-hidden-accessible"></span><script type="text/javascript" id="">(function(){var b=document.location.search.split("aff\x3d")[1];if(b){var d=document.querySelectorAll("a"),c;for(c=0;c<d.length;c++){var a=d[c];0==a.href.indexOf("https://www.templatemonster.com")&&(0<a.href.indexOf("?")?a.href=a.href+"\x26aff\x3d"+b:a.href=a.href+"?aff\x3d"+b)}}b=document.location.search.split("i\x3d")[1];var e=document.location.search.split("pr_code\x3d")[1];if(b&&e)for(b=b.split("\x26")[0],d=document.querySelectorAll("a"),c=0;c<d.length;c++)a=d[c],0==a.href.indexOf("https://www.templatemonster.com")&&
+(a.href="https://www.templatehelp.com/preset/cart.php?act\x3dadd\x26templ\x3d"+b+"\x26pr_code\x3d"+e)})();</script>
+</body></html>
